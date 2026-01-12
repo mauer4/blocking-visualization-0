@@ -32,6 +32,12 @@ The output is written to:
 out/N-16/matmul_blocking_vs_random_N16.gif
 ```
 
+For N=24:
+
+```
+out/N-24/matmul_blocking_vs_random_N24.gif
+```
+
 ## Configuration
 
 - `--n`: matrix size (default: 16, must be divisible by 4)
