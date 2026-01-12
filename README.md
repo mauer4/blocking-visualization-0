@@ -3,6 +3,8 @@
 This repo generates a single GIF that contrasts two output-selection strategies
 for matrix multiplication:
 
+![Matrix multiplication blocking vs random](out/N-16/matmul_blocking_vs_random_N16.gif)
+
 - **Top**: random output selection (high reuse cost across A rows and B columns).
 - **Bottom**: block tiling (compute an `N/4 x N/4` output tile to reuse rows/cols).
 
